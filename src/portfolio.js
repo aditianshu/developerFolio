@@ -7,35 +7,33 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Aditi Anshu",
+  title: "Hi all, I'm Aditi",
+  subTitle: emoji("Currently a Web Developer with special interest in Data Science. Experience working with MERN Stack and discovering new frameworks everyday. Links below to contact me for hiring/collaborations! :)"),
+  resumeLink: "https://drive.google.com/file/d/180bZqxOoFDCt8miPwYy0Se819eiUfLZI/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/aditianshu",
+  linkedin: "https://www.linkedin.com/in/aditi-anshu-2202a3194/",
+  gmail: "aditianshu09@gmail.com",
+  facebook: "https://www.facebook.com/aditi.anshu.9",
+  instagram: "https://www.instagram.com/anshu_aditi/",
+  twitter: "https://twitter.com/wasp_inc_"
   // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do : ",
+  subTitle: "WEB DEVELOPER WANTING TO EXPLORE DATA SCIENCE",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Come up with Machine Learning models for different problems")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -50,10 +48,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -66,22 +61,12 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
+    
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -89,10 +74,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ]
 };
@@ -103,24 +84,14 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "National Institute of Technology Patna",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "B.Tech in Electronics and Communication Engineering",
+      duration: "August 2018 - May 2022 (Expected)",
+      desc: "Majoring in ECE with several small projects and an ongoing project on Image Classification.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Done relevant courses and picked minors in Data Analysis.",
+        "Part of IEEE Student Branch NIT Patna, Literary CLub and have held PoRs in both."
       ]
     }
   ]
@@ -153,29 +124,29 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Data Analytics Intern",
+      company: "The Spark Foundation",
+      companylogo: require("./assets/images/logo_small.png"),
+      date: "November 2020 - Present",
+      desc: "Building Machine Learning models from scratch for the given tasks. Working with several pre-existing models and tailoring them to suit our needs."
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web Developer",
+      company: "Caim consulting",
+      companylogo: require("./assets/images/caim.png"),
+      date: "September 2020 - Present",
+      desc: "Part of a start-up which provides free legal counsel to up and coming start-ups of India. Among the board for this initiative, involved in the initial production and promotion of the website."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Front-End Developer Intern",
+      company: "Devlofox Technologies",
+      companylogo: require("./assets/images/devlo.png"),
+      date: "May 2020 - August 2020",
+      desc: "Worked for a website builing startup. In the three month duration, I worked on around 4 websites in adding functionalitites or modifications to the existing websites."
     },
   ]
 };
@@ -185,7 +156,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "aditianshu", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -197,12 +168,12 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/caim-f.png"),
+      link: "https://www.caimconsulting.in/"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/logo.png"),
+      link: "https://arevaconsultancy.com/index.html"
     }
   ]
 };
@@ -216,31 +187,45 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Tata Crucible Hackathon '20 - Winner",
+      subtitle: "Secured the First prize in the Hackathon organized by Tata Crucible.",
+      image: require("./assets/images/Crucible.jpg"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "E-mail", url: "https://www.linkedin.com/posts/aditi-anshu-2202a3194_hackathon-tatainnoverse-tata-activity-6698952353543938049-MXH2" }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "Code-A-Clash Winner",
+      subtitle: "Won a coding competition in my first year in college.",
+      image: require("./assets/images/codehuh.jpg"),
+      footerLink: [{ name: "Certification", url: "" }]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Impulse '19 - Winner",
+      subtitle: "Won the First prize for presenting a paper on Desalination.",
+      image: require("./assets/images/impulse.jpg"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "Certification", url: "" }
       ]
-    }
+    },
+    {
+      title: "Machine Learning",
+      subtitle: "Summer Training at Tata Steel for Machine Learning",
+      image: require("./assets/images/tatasteel.jpg"),
+      footerLink: [
+        { name: "Certification", url: "https://drive.google.com/file/d/1dUNonCUZlf5wWco0JL54xWSVOjRbTuX0/view" }
+      ]
+    } ,
+    {
+      title: "Web Development",
+      subtitle: "Completed a course by Internshala on basics of Web Development, i.e., HTML, CSS, PHP, SQL, etc.",
+      image: require("./assets/images/is.png"),
+      footerLink: [
+        { name: "Certification ID", url: "BD6EE27D-559B-DCF2-2604-BF0BB8F28215" }
+      ]
+    },
+
   ]
 };
 
@@ -249,18 +234,38 @@ const achievementSection = {
 const blogSection = {
 
   title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  subtitle: "A mix of my other interests, which is writing about technology and some Sci-Fi!",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://learnturtle.co/articles/web-development/styled-components-in-react/",
+      title: "Styled Components in React",
+      description: "Styling components in React can be done in many ways, most of the newcomers go for the traditional CSS sheets or modules but there are several ways of styling components which are very unique to React. "
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://dev.to/teamxenox/the-truth-behind-productivity-apps-4ep4",
+      title: "The Truth Behind Productivity Apps 🧐🤫",
+      description: "Productivity is not just a mere concept anymore, it has materialized into a whole industry."
+    },
+    {
+      url: "https://ieee-sbnitp.blogspot.com/?m=0",
+      title: "Several Blogs for IEEE SB NIT-Patna",
+      description: "Technology, Sci-Fi, it has it all."
+    },
+    {
+      url: "http://ieee.nitp.ac.in/new/results/index3.html#page/6",
+      title: "Plugged 1.0 ",
+      description: "First Tech Magazine of NIT Patna. "
+    },
+    {
+      url: "https://www.instagram.com/feelsinclusive/",
+      title: "Feels Inclusive",
+      description: "A social awareness page I maintain and design posts for."
+    },
+    {
+      url: "https://www.instagram.com/smallpartsofmylife/",
+      title: "Gallery of pictures clicked by me.",
+      description: "Not related to Tech."
     }
   ]
 };
@@ -293,16 +298,16 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Open for collaboration and hiring!",
+  number: "+91-95461-6708",
+  email_address: "aditianshu09@gmail.com"
 };
 
 //Twitter Section
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName : "wasp_inc_"//Replace "twitter" with your twitter username without @
 
 };
 export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
